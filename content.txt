@@ -10,4 +10,23 @@
     > Reusable
     > Maintainable
     > Scalable
-5.
+5.End to end Project class
+    > What is self?
+    self means the current object.
+    > What is __init__ in Python(Dunder Method)
+    Imagine you buy a new mobile phone 📱.
+        When you turn it on for the first time:
+        Language is set
+        Date and time are set
+        Storage is prepared
+        Default apps are ready
+        That initial setup is what __init__ does for an object.
+    > you can create a attribute outside then class?
+
+    > Encapsulation
+    > getter and setter
+    > Static  method
+
+    > inheritance
+    
+    

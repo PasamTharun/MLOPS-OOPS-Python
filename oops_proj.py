@@ -1,12 +1,30 @@
 class chatBook:
+    
+    __user_id=1
+    
     def __init__(self):
+        self.id=chatBook.__user_id
+        chatBook.__user_id +=1
+        self.__name='Default User'
         self.username=''
         self.password=''
         self.loggedin=False
-        self.menu()
+        #self.menu()
         
+    @staticmethod    
+    def get_id():
+        return chatBook.__user_id
+
+    @staticmethod
+    def set_id(val):
+        chatBook.__user_id=val
         
+    def get_name(self):
+        return self.__name
     
+    def set_name(self):
+        self.__name=input("Enter your name here--->")
+        
     def menu(self):
         user_input=input("""Welcome to ChatBook! How would you like to proceed?
                          1.press 1 to signup
@@ -68,5 +86,17 @@ class chatBook:
             print("Please Signin first to message with friend")
         print('\n')
         self.menu()
-    
-obj=chatBook()
+        
+#Create an obj/instance of the class   
+#obj=chatBook()
+#obj1=chatBook()
+
+#creating the attribute outside the class
+#obj.name="Pasam Tharun"
+#print(obj.name)
+
+#print(id(obj)) 
+#print(id(obj1)) 
+
+
+
