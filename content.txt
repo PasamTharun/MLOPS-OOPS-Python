@@ -27,6 +27,12 @@
     > getter and setter
     > Static  method
 
-    > inheritance
+6.inheritance
+    > inheritance code example
+    > Why inheritance is needed? (Code reuseability,parent has no access to child class)
+    > what get inherited?---constructor,non private attributes,non private methods
+    > constructor overloading and method overloading
+    > super keyword(can be used only inside child class,can not access variables/attributes )
+    > types of inheritance
     
     
